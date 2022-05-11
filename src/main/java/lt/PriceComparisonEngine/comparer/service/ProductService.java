@@ -1,6 +1,6 @@
-package lt.PriceComparisonEngine.comparer.Product.Service;
+package lt.PriceComparisonEngine.comparer.service;
 
-import lt.PriceComparisonEngine.comparer.Product.Entity.Product;
+import lt.PriceComparisonEngine.comparer.model.Product;
 
 import java.util.List;
 

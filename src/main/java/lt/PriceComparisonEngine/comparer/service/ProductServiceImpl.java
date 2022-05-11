@@ -1,10 +1,10 @@
-package lt.PriceComparisonEngine.comparer.Product.Service;
+package lt.PriceComparisonEngine.comparer.service;
 
-import lt.PriceComparisonEngine.comparer.Product.Entity.Product;
-import lt.PriceComparisonEngine.comparer.Product.Repository.ProductRepository;
+import lt.PriceComparisonEngine.comparer.model.Product;
+import lt.PriceComparisonEngine.comparer.repository.ProductRepository;
+import lt.PriceComparisonEngine.comparer.service.ProductService;
 
 import java.util.List;
-import java.util.Optional;
 
 public class ProductServiceImpl implements ProductService {
 

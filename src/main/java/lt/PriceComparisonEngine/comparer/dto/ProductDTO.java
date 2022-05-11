@@ -1,23 +1,22 @@
-package lt.PriceComparisonEngine.comparer.Product.DTO;
+package lt.PriceComparisonEngine.comparer.dto;
 
 import lombok.*;
-
-import java.math.BigDecimal;
 
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProductDTO {
 
     @Getter
+    @Setter
     private String name;
 
     @Setter
     @Getter
     @NonNull
-    private BigDecimal price;
+    private String price;
 
     @Setter
     @Getter
     @NonNull
-    private String base64Image;
+    private String image;
 }

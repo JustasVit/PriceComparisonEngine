@@ -1,8 +1,6 @@
-package lt.PriceComparisonEngine.comparer.Product.Entity;
+package lt.PriceComparisonEngine.comparer.model;
 
-import lombok.Getter;
-import lombok.NonNull;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,6 +9,8 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
 
     @Id
@@ -25,11 +25,16 @@ public class Product {
     @Setter
     @Getter
     @NonNull
-    private BigDecimal price;
+    private String price;
 
     @Setter
     @Getter
     @NonNull
-    private String base64Image;
+    private String image;
 
+    public Product(String name, String price, String image) {
+        this.name = name;
+        this.price = price;
+        this.image = image;
+    }
 }

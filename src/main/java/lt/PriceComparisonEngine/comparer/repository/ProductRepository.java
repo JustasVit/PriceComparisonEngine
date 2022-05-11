@@ -1,9 +1,7 @@
-package lt.PriceComparisonEngine.comparer.Product.Repository;
+package lt.PriceComparisonEngine.comparer.repository;
 
-import lt.PriceComparisonEngine.comparer.Product.Entity.Product;
+import lt.PriceComparisonEngine.comparer.model.Product;
 import org.springframework.data.repository.CrudRepository;
-
-import java.util.List;
 
 public interface ProductRepository extends CrudRepository<Product, Long> {
     Iterable<Product> findProductByName(String name);
