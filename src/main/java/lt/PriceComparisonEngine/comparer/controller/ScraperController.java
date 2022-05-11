@@ -22,9 +22,9 @@ public class ScraperController {
         this.modelMapper = modelMapper;
     }
 
-    //Pakeisti i get
-    @PostMapping
-    public ResponseEntity<List<ProductDTO>> getAllProducts(@RequestBody String productName) {
+    @GetMapping
+    @ResponseBody
+    public ResponseEntity<List<ProductDTO>> getAllProducts(@RequestParam String productName) {
         return new ResponseEntity<>(scraperService.scrapeProductsByName(productName)
                 .stream()
                 .map(this::convertToDto)
