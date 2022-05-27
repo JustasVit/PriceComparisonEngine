@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ItemComponent } from './components/item/item.component';
 import { ItemGridComponent } from './components/item-grid/item-grid.component';
+import { SearchFieldComponent } from './components/search-field/search-field.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
-    ItemGridComponent
+    ItemGridComponent,
+    SearchFieldComponent
   ],
   imports: [
     BrowserModule,

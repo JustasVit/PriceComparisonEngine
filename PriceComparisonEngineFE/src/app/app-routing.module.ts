@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {ItemComponent} from "./components/item/item.component";
 import {ItemGridComponent} from "./components/item-grid/item-grid.component";
+import {SearchFieldComponent} from "./components/search-field/search-field.component";
 
-const routes: Routes = [{path:'',component:ItemComponent}, {path:'grid',component:ItemGridComponent}];
+const routes: Routes = [{path:'',component:ItemGridComponent},{path:'search',component:SearchFieldComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
