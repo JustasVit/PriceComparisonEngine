@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4470b927-f1bc-46ee-ad50-305b0ee01051" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/ComparerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/controller/ScraperController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/dto/ProductDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/service/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/service/ScraperService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/PriceComparisonEngine/comparer/service/ScraperServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lt/PriceComparisonEngine/comparer/ComparerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PriceComparisonEngineFE" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunAnythingCache">
@@ -68,17 +52,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ComparerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="comparer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lt.PriceComparisonEngine.comparer.ComparerApplication" />
@@ -108,7 +81,8 @@
       <workItem from="1651605338491" duration="1495000" />
       <workItem from="1651847998200" duration="31000" />
       <workItem from="1652270655859" duration="642000" />
-      <workItem from="1652271570750" duration="291000" />
+      <workItem from="1652271570750" duration="544000" />
+      <workItem from="1652340235726" duration="344000" />
     </task>
     <servers />
   </component>
